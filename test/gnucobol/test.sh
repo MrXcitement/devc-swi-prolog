@@ -2,9 +2,11 @@
 cd $(dirname "$0")
 source test-utils.sh
 
+# Run common tests
+checkCommon
+
 # Template specific tests
-check "distro" lsb_release -c
-check "install" [ $(cobc -V | grep cobc) ]
+check "cobc" cobc -V
 
 # Report result
 reportResults
