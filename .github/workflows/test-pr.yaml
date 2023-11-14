@@ -12,7 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            gnu-cobol: ./**/gnu-cobol/**
+            gnucobol: ./**/gnucobol/**
 
   test:
     needs: [detect-changes]
