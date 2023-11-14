@@ -1,0 +1,23 @@
+{
+    "id": "gnucobol",
+    "version": "0.1.0",
+    "name": "GNU Cobol",
+    "description": "A GNU Cobol Template",
+    "documentationURL": "https://github.com/mrxcitement/devc-templates/tree/main/src/gnucobol",
+    "licenseURL": "https://github.com/mrxcitement/devc-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bookworm or bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+				"bookworm",
+                "bullseye",
+                "buster"
+            ],
+            "default": "bookworm"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
