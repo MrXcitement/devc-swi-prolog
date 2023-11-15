@@ -3,7 +3,7 @@
 ## https://github.com/devcontainers/images/tree/main/src/base-debian
 FROM mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}
 
-# LABEL org.opencontainers.image.source="https://github.com/mrxcitement/devc-cobol"
+# LABEL org.opencontainers.image.source="https://github.com/mrxcitement/devc-templates/gnucobol"
 
 # To build and install GnuCOBOL I used commands from their documentation
 # https://gnucobol.sourceforge.io/faq/index.html#building-gnucobol-3-0-release-candidates
